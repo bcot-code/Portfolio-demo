@@ -1,0 +1,60 @@
+:root {
+  --title: black;
+  --font-family-1: "Mooli", sans-serif;
+}
+body {
+  background: rgb(131, 58, 180);
+  background: linear-gradient(
+    90deg,
+    rgba(131, 58, 180, 1) 0%,
+    rgba(29, 144, 253, 1) 23%,
+    rgba(98, 69, 252, 1) 100%
+  );
+}
+header {
+  background-image: url("./images/hector-j-rivas-1FxMET2U5dU-unsplash.jpg");
+  color: aqua;
+  padding-bottom: 20px;
+}
+h1 {
+  color: aquamarine;
+}
+/* NavBar */
+/* Create two columns/boxes that floats next to each other */
+header .background-1 {
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+header nav .list-1 {
+  text-align: center;
+  display: flex;
+}
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+  text-decoration: none;
+  padding: 14px 16px;
+}
+/* Main- body*/
+
+#head {
+  text-align: center;
+  color: var(--title);
+  margin: 15% 0;
+}
+main p {
+  font-family: var(--font-family-1);
+  font-size: 20px;
+}
+main .img-1 {
+  width: 60%;
+  height: 200%;
+}
+main section .md-cell {
+  padding: 8px;
+}
