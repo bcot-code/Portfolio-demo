@@ -45,7 +45,7 @@ li a {
 #head {
   text-align: center;
   color: var(--title);
-  margin: 15% 0;
+  margin: 20% 0;
 }
 main p {
   font-family: var(--font-family-1);
@@ -55,6 +55,26 @@ main .img-1 {
   width: 60%;
   height: 200%;
 }
+h2 {
+  font-size: 30px;
+}
 main section .md-cell {
-  padding: 8px;
+  padding: 20px 8px;
+  margin: 20px 0;
+  display: flex;
+}
+section .box-1 {
+  padding: 0 35px;
+}
+section .box-2 {
+  padding-left: 20px;
+}
+
+#style {
+  font-size: 330%;
+}
+
+#hr-1 {
+  border-top: 4px double #8c8b8b;
+  align-content: center;
 }
