@@ -18,9 +18,10 @@ SO THAT I can review samples of their work and assess whether they're a good can
 ### Usage INFORMAION
 
 ```
->  Used Html/css
+> Used Html/css
 > Used Bootstrap
 > Font AWESOME Docs
+> Responsive Website
 ```
 
 ### Acceptance Criteria
