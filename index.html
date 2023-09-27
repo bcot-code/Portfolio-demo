@@ -20,7 +20,7 @@
         <nav class="background-1">
             <ul style="float: right;" class="list-1">
                 <li>
-                    <a href="#about">About Me </a> |
+                    <a href="#About">About Me </a> |
                 </li>
                 <li>
                     <a href="#feature">Featured</a> |
@@ -38,12 +38,14 @@
     <!--Body-->
     <main>
         <h1 id="head">WELCOME TO MY Portfolio!</h1>
-        <img src="./assets/images/self.png" alt="self pic" width="30%" height="25%" style=" float: right;" />
+        <img class="hide-img-1" src="./assets/images/self.png" alt="self pic" width="30%" height="25%"
+            style=" float: right;" />
         <section>
-            <div class="md-cell">
-                <h2 class="box-1 box">About Me</h2>
+            <div class="md-cell box">
+                <h2 class="box-1" id="About">About Me</h2>
                 <p id="style">|</p>
-                <p class="box-2 box">Hi my name is Barbara, prefer Barbie. I'm a self taught Developer who loves to code
+                <p class="box-2">
+                    Hi my name is Barbara, prefer Barbie. I'm a self taught Developer who loves to code
                     and
                     hopes to make
                     a difference in life of techology.
@@ -52,40 +54,40 @@
                     coding gift.</p>
             </div>
             <hr id="hr-1" />
-            <div>
-                <h2>Work</h2>
-                <div class="md-cell">
-                    <img class="img-1" src="./assets/images/homepage-seen-computer-screen.jpg" alt="computer exmaple">
-                    <!--Image by <a
-                        href="https://www.freepik.com/free-photo/homepage-seen-computer-screen_26538658.htm#query=website&position=8&from_view=search&track=sph">Freepik</a> -->
-                </div>
-
-                <figure class="md-cell">BLOG<p id="style">|</p>
-                    <br />
-                    <img src="https://blog.magezon.com/wp-content/uploads/2021/03/add-placeholder-text-to-magento-2-forms-1.png"
-                        alt="blog placeholder" width="450px" height="200px">
-                    <br />
-                    <figcaption>Check it out!</figcaption>
-                </figure>
-
-                <figure class="md-cell">Projects<p id="style">|</p>
-                    <img src="./assets/images/WeatheraPP.png" alt="weather app " width="100%">
-                </figure>
-
-            </div>
-            <hr id="hr-2" />
+            <div class="container1" id="container">
+                <div id="title">
+                    <h2>Works</h2>
+                    <div class="grid-wrapper">
+                        <section class="container-grid">
+                            <div id="Blog">
+                                <h2 class="blog">BLOG</h2>
+                                <p id="style">|</p>
+                                <br />
+                                <img src="https://blog.magezon.com/wp-content/uploads/2021/03/add-placeholder-text-to-magento-2-forms-1.png"
+                                    alt="blog placeholder" width="450px" height="200px" class="pic">
+                                <h3>Check it out!</h3>
+                                <p>HTML /CSS </p>
+                            </div>
+                            <div>
+                                <h2 class="project">Projects</h2>
+                                <p id="style">|</p>
+                                <img src="./assets/images/WeatheraPP.png" alt="weather app " width="80%" height="50%"
+                                    class="pic">
+                            </div>
+                        </section>
+                    </div>
         </section>
     </main>
-    <!--ENDING-->
+    <!--END/ Contact me-->
     <footer>
-        <h3>Contact infor</h3>
-        <section>
+        <section id="title">
+            <h3 style="font-size: 20px;">Contact infor</h3>
             <ul style="list-style: none; float:right; ">
                 <li clas="list-2">
                     <a href="#" class="social-media number">Number</a>
                 </li>
                 <li>
-                    <a href="#" class="social-media email">Email</a>
+                    <a href="#" class="social-media email" id="Contact">Email</a>
                 </li>
                 <li>
                     <a href="#" class="social-media github">GitHub</a>
