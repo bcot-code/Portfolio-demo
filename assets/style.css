@@ -1,7 +1,13 @@
 :root {
-  --title: black;
+  --title: radial-gradient(
+    circle,
+    rgba(63, 94, 251, 1) 0%,
+    rgba(73, 62, 64, 1) 26%
+  );
   --font-family-1: "Mooli", sans-serif;
+  --fav-color: aqua;
 }
+
 body {
   background: rgb(131, 58, 180);
   background: linear-gradient(
@@ -10,15 +16,19 @@ body {
     rgba(29, 144, 253, 1) 23%,
     rgba(98, 69, 252, 1) 100%
   );
+  background-repeat: no-repeat;
+  background-size: auto;
 }
+/*Head */
 header {
   background-image: url("./images/hector-j-rivas-1FxMET2U5dU-unsplash.jpg");
-  color: aqua;
+  color: var(--fav-color);
   padding-bottom: 20px;
 }
 h1 {
   color: aquamarine;
 }
+
 /* NavBar */
 /* Create two columns/boxes that floats next to each other */
 header .background-1 {
@@ -52,15 +62,13 @@ main p {
   font-size: 20px;
 }
 main .img-1 {
-  width: 60%;
-  height: 200%;
+  width: 40%;
+  height: 100%;
 }
 h2 {
   font-size: 30px;
 }
 main section .md-cell {
-  padding: 20px 8px;
-  margin: 20px 0;
   display: flex;
 }
 section .box-1 {
@@ -68,13 +76,87 @@ section .box-1 {
 }
 section .box-2 {
   padding-left: 20px;
-}
-
-#style {
-  font-size: 330%;
+  padding-bottom: 30px;
 }
 
 #hr-1 {
-  border-top: 4px double #8c8b8b;
+  border-top: 20px double #8c8b8b;
   align-content: center;
+}
+
+/* MIDDLE SECTION */
+#style {
+  font-size: 30%;
+}
+.container1 {
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  background-color: var(--fav-color);
+}
+.grid-wrapper {
+  width: fit-content;
+  display: flex;
+  justify-content: end;
+}
+.container-grid {
+  width: 70%;
+  display: grid;
+  grid-template-rows: repeat(2, 1fr);
+}
+.pic {
+  display: flex;
+  justify-content: center;
+  align-items: flex-end;
+  background-size: cover;
+  border: 10px solid transparent;
+  border-image: url(border.png) 30 stretch;
+}
+#Blog {
+  padding-bottom: 30px;
+}
+.blog,
+.project {
+  font-size: 20px;
+}
+
+#title {
+  border: 5px solid var(--title);
+  min-height: 100%;
+  text-align: right;
+  padding-right: 40px;
+  min-width: 20%;
+  max-width: 20%;
+}
+/* For mobile phones: */
+@media only screen and (max-width: 768px) {
+  /* Header */
+  main .hide-img-1,
+  #style {
+    visibility: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  section .box {
+    flex-direction: column;
+  }
+  section .box-2 {
+    padding-bottom: -20px;
+  }
+
+  /*Main Section */
+  #container {
+    flex-direction: column;
+  }
+  .grid-wrapper {
+    width: 100%;
+    padding: 10px;
+  }
+  .container-grid {
+    width: 80%;
+  }
+  .pic {
+    display: flex;
+    padding-right: -200px;
+  }
 }
