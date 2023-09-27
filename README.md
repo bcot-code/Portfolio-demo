@@ -48,8 +48,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ### Screenshot
 
-![My Portfolio webpage
+![My Portfolio webpage deployment] (demo)
 
 ```
+### Live website
 
 ```

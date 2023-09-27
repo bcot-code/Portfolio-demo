@@ -98,13 +98,14 @@ section .box-2 {
 #title {
   border: 5px solid var(--title);
   min-height: 100%;
-  text-align: right;
   padding-right: 40px;
   min-width: 20%;
   max-width: 20%;
 }
+.works {
+  text-align: right;
+}
 .container1 {
-  padding: 20px;
   display: flex;
   justify-content: space-between;
   background-color: var(--fav-color);
@@ -115,7 +116,7 @@ section .box-2 {
   justify-content: end;
 }
 .container-grid {
-  width: 70%;
+  width: 60%;
   display: grid;
   grid-template-rows: repeat(2, 1fr);
 }
@@ -127,12 +128,23 @@ section .box-2 {
   border: 10px solid transparent;
   border-image: url(border.png) 30 stretch;
 }
+.design-img {
+  display: flex;
+  width: 850px;
+  height: 400px;
+  margin-left: -200px;
+}
 #Blog {
   padding-bottom: 30px;
 }
 .blog,
 .project {
   font-size: 20px;
+}
+.card-2:hover,
+.card-3:hover {
+  background-color: blueviolet;
+  padding: 30px;
 }
 /* Footer */
 footer {
