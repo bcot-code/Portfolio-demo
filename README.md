@@ -4,9 +4,9 @@ My portfolio for practice purposes , details of new projects and other contents 
 
 ## Table of Contents
 
-- [Description](###description)
-- [Usage Information](###usage_information)
-- [Screenshot](###Screenshot)
+- [Description](#description)
+- [Usage Information](#usage_INFORMAION)
+- [Screenshot](#Screenshot)
 
 ### DESCRIPTION
 
