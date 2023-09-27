@@ -4,10 +4,9 @@ My portfolio for practice purposes , details of new projects and other contents 
 
 ## Table of Contents
 
-- [Description](#description)
-- [Installation](#installation)
-- [Usage Information](#usage_information)
-- [Contribution Guidelines](#contribution_guidelines)
+- [Description](###description)
+- [Usage Information](###usage_information)
+- [Screenshot](###Screenshot)
 
 ### DESCRIPTION
 
@@ -16,7 +15,7 @@ AS the recuiter wants to view potential employee's deployed portfolio of work sa
 SO THAT I can review samples of their work and assess whether they're a good candidate for an open position.
 ```
 
-### Installation
+### Usage INFORMAION
 
 ```
 >  Used Html/css
@@ -48,9 +47,12 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ### Screenshot
 
-![My Portfolio webpage deployment] (demo)
+![MyPortfolio](./assets/images/Screen%20Shot%202023-09-27%20at%202.26.36%20PM.png)
 
-```
-### Live website
+### Deploy live
 
-```
+[Github Deploy](https://bcot-code.github.io/Portfolio-demo/)
+
+### Github profile
+
+[MyProfile_demo](https://github.com/bcot-code/Portfolio-demo)
