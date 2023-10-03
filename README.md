@@ -48,7 +48,9 @@ THEN I am presented with a responsive layout that adapts to my viewport
 
 ### Screenshot
 
-![MyPortfolio](./assets/images/Screen%20Shot%202023-09-27%20at%202.26.36%20PM.png)
+![screenshot-Mobile & Desktop](./assets/images/Screen%20Shot%202023-10-03%20at%206.49.09%20PM.png)
+
+![MyPortfolio]()
 
 ### Deploy live
 
